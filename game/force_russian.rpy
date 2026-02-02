@@ -176,6 +176,12 @@ translate russian style no_quests_text:
 translate russian style quickreact_button_text:
     font "fonts/FiraSansCondensed-Heavy.TTF"
 
+translate russian style episode_text:
+    font "fonts/FiraSansCondensed-Heavy.TTF"
+
+translate russian style ver_text:
+    font "fonts/FiraSansCondensed-Heavy.TTF"
+
 translate russian strings:
 
     old "What will your name be?"
@@ -999,6 +1005,133 @@ screen option_prompt(prompt="Placeholder prompt",x=0.1,y=0.6):
     text "[_ru_prompt]" style "option_prompt_text":
         xalign x
         yalign y
+
+screen nvl_phonetext(dialogue):
+    style_prefix None
+
+    $ previous_d_who = None
+    for id_d, d in enumerate(dialogue):
+        if d.who == None:
+            text d.what:
+                    xpos -335
+                    ypos 0.0
+                    xsize 350
+                    text_align 0.5
+                    italic True
+                    size 5
+                    slow_cps False
+                    id d.what_id
+                    if d.current:
+                        at message_narrator
+        else:
+            if d.who and phone_mode == "default":
+                $ message_frame = "phone_send_frame.png"
+            elif d.who == MC_GF and phone_mode == "gf":
+                $ message_frame = "phone_send_frame.png"
+            else:
+                $ message_frame = "phone_received_frame.png"
+
+            hbox:
+                spacing 20
+                xfill True
+                if d.who == MC and phone_mode == "default":
+                    xalign 1.0
+                    xoffset 10
+                    box_reverse True
+                elif d.who == MC_GF and phone_mode == "gf":
+                    xalign 1.0
+                    box_reverse True
+                else:
+                    xalign 0.0
+
+                if previous_d_who != d.who:
+                    if d.who == MC:
+                        $ message_icon = "images/phone/anon_profile_pic_alt.png"
+                    elif d.who == MC_GF:
+                        $ message_icon = "images/phone/suzie_profile_pic.png"
+                    elif d.who in ("Cee", "Си"):
+                        $ message_icon = "images/phone/cee_profile_pic.png"
+                    elif d.who in ("Madelynn", "Мэделин"):
+                        $ message_icon = "images/phone/madelynn_profile_pic.png"
+                    elif d.who in ("Trevor", "Тревор"):
+                        $ message_icon = "images/phone/trevor_profile_pic.png"
+                    elif d.who in ("Drago", "Драго"):
+                        $ message_icon = "images/phone/drago_profile_pic.png"
+                    else:
+                        $ message_icon = "phone_received_icon.png"
+                    add message_icon:
+                        if d.current:
+                            at message_appear_icon()
+                        if d.who == MC and phone_mode == "default":
+                            at transform:
+                                xoffset -10
+                        elif d.who == [persistent.sname] and phone_mode == "gf":
+                            at transform:
+                                xoffset -10
+
+                else:
+                    null width 80
+
+                vbox:
+                    yalign 1.0
+                    if d.who == [persistent.aname]:
+                        xalign 1.0
+                    else:
+                        xalign 0
+                    if d.who != [persistent.aname] and previous_d_who != d.who:
+                        text d.who:
+                            font "fonts/Roboto-Bold.TTF"
+
+                    frame:
+                        padding (10, 15)
+                        background Frame(message_frame, 30,30,30,30)
+                        xmaximum 300
+
+                        text d.what:
+                            pos (0,0)
+                            xsize 310
+                            slow_cps False
+                            font "fonts/Roboto-Bold.TTF"
+                            size 24
+
+                            if d.who == MC:
+                                color "#FFF"
+                                text_align 0.0
+                                xpos 10
+                                outlines([ (1, "#ea840000", 0, 0) ])
+                                if id_d == len(dialogue) - 1:
+                                    slow_cps True
+                                else:
+                                    slow_cps False
+                            elif d.who == MC_GF and phone_mode == "default":
+                                color "#000"
+                                text_align 0.0
+                                xpos 10
+                                outlines([ (1, "#ea840000", 0, 0) ])
+                            elif d.who == MC_GF and phone_mode == "gf":
+                                color "#fff"
+                                text_align 0.0
+                                xpos 10
+                                outlines([ (1, "#ea840000", 0, 0) ])
+                                if anon_sending_messages_from_gf_phone:
+                                    if id_d == len(dialogue) - 1:
+                                        slow_cps True
+                                    else:
+                                        slow_cps False
+                            elif d.who in ("Cee", "Си"):
+                                color "#000"
+                                text_align 0.0
+                                xpos 10
+                                outlines([ (1, "#ea840000", 0, 0) ])
+                            else:
+                                outlines([ (1, "#ea840000", 0, 0) ])
+                                color "#000"
+                                xpos 10
+                                text_align 0.0
+
+
+                            id d.what_id
+        $ previous_d_who = d.who
 
 label after_load:
     $ renpy.change_language("russian")

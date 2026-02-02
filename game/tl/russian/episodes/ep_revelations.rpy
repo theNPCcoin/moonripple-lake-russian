@@ -24382,29 +24382,29 @@ translate russian strings:
 
     # game/episodes/ep_revelations.rpy:7613
     old "Don't kiss her."
-    new "Don't kiss her."
+    new "Не целовать её."
 
     # game/episodes/ep_revelations.rpy:7665
     old "Kiss Christina."
-    new "Kiss Christina."
+    new "Поцеловать Кристину."
 
     # game/episodes/ep_revelations.rpy:7684
     old "Don't kiss Christina."
-    new "Don't kiss Christina."
+    new "Не целовать Кристину."
 
     # game/episodes/ep_revelations.rpy:8798
     old "Let Drago get a footjob."
-    new "Let Drago get a footjob."
+    new "Позволить Драго получить футджоб."
 
     # game/episodes/ep_revelations.rpy:8885
     old "Don't let him get a footjob."
-    new "Don't let him get a footjob."
+    new "Не позволять ему."
 
     # game/episodes/ep_revelations.rpy:9661
     old "Ask her to suck it."
-    new "Ask her to suck it."
+    new "Попросить её отсосать."
 
     # game/episodes/ep_revelations.rpy:10084
     old "Don't ask her to suck it."
-    new "Don't ask her to suck it."
+    new "Не просить."
 

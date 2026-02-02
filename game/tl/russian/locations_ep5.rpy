@@ -11620,17 +11620,17 @@ translate russian strings:
 
     # game/locations_ep5.rpy:248
     old "Interrupt"
-    new "Interrupt"
+    new "Прервать"
 
     # game/locations_ep5.rpy:250
     old "Wait"
-    new "Wait"
+    new "Подождать"
 
     # game/locations_ep5.rpy:3719
     old "A beer."
-    new "A beer."
+    new "Пиво."
 
     # game/locations_ep5.rpy:3757
     old "Nothing."
-    new "Nothing."
+    new "Ничего."
 

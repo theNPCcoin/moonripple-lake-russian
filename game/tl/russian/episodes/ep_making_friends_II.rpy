@@ -18636,77 +18636,77 @@ translate russian strings:
 
     # game/episodes/ep_making_friends_II.rpy:1804
     old "Attack him."
-    new "Attack him."
+    new "Напасть на него."
 
     # game/episodes/ep_making_friends_II.rpy:2228
     old "Try to calm things down."
-    new "Try to calm things down."
+    new "Попытаться всё уладить."
 
     # game/episodes/ep_making_friends_II.rpy:3310
     old "Your breasts."
-    new "Your breasts."
+    new "Твоя грудь."
 
     # game/episodes/ep_making_friends_II.rpy:3314
     old "Your... thong."
-    new "Your... thong."
+    new "Твои... стринги."
 
     # game/episodes/ep_making_friends_II.rpy:3320
     old "Your... lips. And eyes."
-    new "Your... lips. And eyes."
+    new "Твои... губы. И глаза."
 
     # game/episodes/ep_making_friends_II.rpy:3442
     old "Own it."
-    new "Own it."
+    new "Признать."
 
     # game/episodes/ep_making_friends_II.rpy:3444
     old "Weasel out of it."
-    new "Weasel out of it."
+    new "Выкрутиться."
 
     # game/episodes/ep_making_friends_II.rpy:3999
     old "Do it."
-    new "Do it."
+    new "Сделать это."
 
     # game/episodes/ep_making_friends_II.rpy:4108
     old "Don't do it."
-    new "Don't do it."
+    new "Не делать этого."
 
     # game/episodes/ep_making_friends_II.rpy:4576
     old "Pick [persistent.sname]"
-    new "Pick [persistent.sname]"
+    new "Выбрать [persistent.sname]"
 
     # game/episodes/ep_making_friends_II.rpy:4701
     old "Pick Merynn"
-    new "Pick Merynn"
+    new "Выбрать Меринн"
 
     # game/episodes/ep_making_friends_II.rpy:5743
     old "Try to convince [persistent.sname] to do it."
-    new "Try to convince [persistent.sname] to do it."
+    new "Попытаться убедить [persistent.sname] сделать это."
 
     # game/episodes/ep_making_friends_II.rpy:5771
     old "Leave."
-    new "Leave."
+    new "Уйти."
 
     # game/episodes/ep_making_friends_II.rpy:5983
     old "Let it play out"
-    new "Let it play out"
+    new "Пусть всё идёт как идёт"
 
     # game/episodes/ep_making_friends_II.rpy:6370
     old "That was enough..."
-    new "That was enough..."
+    new "Хватит..."
 
     # game/episodes/ep_making_friends_II.rpy:6423
     old "Understand."
-    new "Understand."
+    new "Понять."
 
     # game/episodes/ep_making_friends_II.rpy:6436
     old "Don't understand."
-    new "Don't understand."
+    new "Не понимать."
 
     # game/episodes/ep_making_friends_II.rpy:7061
     old "Wink at her."
-    new "Wink at her."
+    new "Подмигнуть ей."
 
     # game/episodes/ep_making_friends_II.rpy:7134
     old "Shake your head."
-    new "Shake your head."
+    new "Покачать головой."
 

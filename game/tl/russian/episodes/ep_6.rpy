@@ -15640,53 +15640,53 @@ translate russian strings:
 
     # game/episodes/ep_6.rpy:1881
     old "N-no..."
-    new "N-no..."
+    new "Н-нет..."
 
     # game/episodes/ep_6.rpy:1884
     old "It feels too good."
-    new "It feels too good."
+    new "Слишком хорошо..."
 
     # game/episodes/ep_6.rpy:3111
     old "Give in."
-    new "Give in."
+    new "Сдаться."
 
     # game/episodes/ep_6.rpy:3118
     old "No!"
-    new "No!"
+    new "Нет!"
 
     # game/episodes/ep_6.rpy:3527
     old "Scream at her to snap out of it."
-    new "Scream at her to snap out of it."
+    new "Закричать, чтобы она пришла в себя."
 
     # game/episodes/ep_6.rpy:3562
     old "Watch."
-    new "Watch."
+    new "Смотреть."
 
     # game/episodes/ep_6.rpy:4581
     old "Encourage Cee."
-    new "Encourage Cee."
+    new "Подбодрить Си."
 
     # game/episodes/ep_6.rpy:4584
     old "Discourage Cee."
-    new "Discourage Cee."
+    new "Остановить Си."
 
     # game/episodes/ep_6.rpy:4635
     old "Kiss Cee."
-    new "Kiss Cee."
+    new "Поцеловать Си."
 
     # game/episodes/ep_6.rpy:4943
     old "It's my favorite butt."
-    new "It's my favorite butt."
+    new "Это моя любимая попка."
 
     # game/episodes/ep_6.rpy:4951
     old "It's my second favorite butt."
-    new "It's my second favorite butt."
+    new "Это моя вторая любимая попка."
 
     # game/episodes/ep_6.rpy:5142
     old "Fill Cee up."
-    new "Fill Cee up."
+    new "Кончить в Си."
 
     # game/episodes/ep_6.rpy:5182
     old "Cover their asses."
-    new "Cover their asses."
+    new "Кончить на попки."
 

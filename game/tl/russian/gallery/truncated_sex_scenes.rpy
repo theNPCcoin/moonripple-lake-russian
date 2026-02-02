@@ -39784,53 +39784,53 @@ translate russian strings:
 
     # game/gallery/truncated_sex_scenes.rpy:12117
     old "He caught her."
-    new "He caught her."
+    new "Он поймал её."
 
     # game/gallery/truncated_sex_scenes.rpy:12122
     old "He did not."
-    new "He did not."
+    new "Он не поймал."
 
     # game/gallery/truncated_sex_scenes.rpy:12201
     old "She did."
-    new "She did."
+    new "Она сделала это."
 
     # game/gallery/truncated_sex_scenes.rpy:12225
     old "She did not."
-    new "She did not."
+    new "Она не сделала."
 
     # game/gallery/truncated_sex_scenes.rpy:12600
     old "You did."
-    new "You did."
+    new "Да."
 
     # game/gallery/truncated_sex_scenes.rpy:12747
     old "You didn't."
-    new "You didn't."
+    new "Нет."
 
     # game/gallery/truncated_sex_scenes.rpy:12993
     old "You did not."
-    new "You did not."
+    new "Нет."
 
     # game/gallery/truncated_sex_scenes.rpy:13229
     old "Yes."
-    new "Yes."
+    new "Да."
 
     # game/gallery/truncated_sex_scenes.rpy:13231
     old "No."
-    new "No."
+    new "Нет."
 
     # game/gallery/truncated_sex_scenes.rpy:13892
     old "You told her to be naughty."
-    new "You told her to be naughty."
+    new "Ты сказал ей быть непослушной."
 
     # game/gallery/truncated_sex_scenes.rpy:15362
     old "Kissed Drago."
-    new "Kissed Drago."
+    new "Поцеловал Драго."
 
     # game/gallery/truncated_sex_scenes.rpy:15576
     old "Didn't kiss Drago."
-    new "Didn't kiss Drago."
+    new "Не целовал Драго."
 
     # game/gallery/truncated_sex_scenes.rpy:16424
     old "Did [persistent.aname] cheat on [persistent.sname]?"
-    new "Did [persistent.aname] cheat on [persistent.sname]?"
+    new "[persistent.aname] изменил [persistent.sname]?"
 

@@ -32,15 +32,15 @@ translate russian strings:
 
     # game/screens.rpy:321
     old "Options"
-    new "Настройки"
+    new "Опции"
 
     # game/screens.rpy:362
     old "Start"
-    new "Начать"
+    new "Старт"
 
     # game/screens.rpy:370
     old "Load"
-    new "Загрузить"
+    new "Загр."
 
     # game/screens.rpy:374
     old "Gallery"

@@ -14026,49 +14026,49 @@ translate russian strings:
 
     # game/episodes/ep_5.rpy:240
     old "Have her go on a date with Trevor."
-    new "Have her go on a date with Trevor."
+    new "Пусть сходит на свидание с Тревором."
 
     # game/episodes/ep_5.rpy:302
     old "Not yet."
-    new "Not yet."
+    new "Ещё нет."
 
     # game/episodes/ep_5.rpy:1814
     old "Can't... speak."
-    new "Can't... speak."
+    new "Не могу... говорить."
 
     # game/episodes/ep_5.rpy:1978
     old "I... refuse!"
-    new "I... refuse!"
+    new "Я... отказываюсь!"
 
     # game/episodes/ep_5.rpy:3107
     old "Tell her to be naughty."
-    new "Tell her to be naughty."
+    new "Сказать ей быть непослушной."
 
     # game/episodes/ep_5.rpy:3112
     old "Don't."
-    new "Don't."
+    new "Не надо."
 
     # game/episodes/ep_5.rpy:3137
     old "Say yes."
-    new "Say yes."
+    new "Сказать да."
 
     # game/episodes/ep_5.rpy:3140
     old "Say no."
-    new "Say no."
+    new "Сказать нет."
 
     # game/episodes/ep_5.rpy:3285
     old "Kiss her."
-    new "Kiss her."
+    new "Поцеловать её."
 
     # game/episodes/ep_5.rpy:3365
     old "Let the moment pass."
-    new "Let the moment pass."
+    new "Упустить момент."
 
     # game/episodes/ep_5.rpy:3496
     old "Grab it."
-    new "Grab it."
+    new "Схватить."
 
     # game/episodes/ep_5.rpy:3524
     old "Don't grab it."
-    new "Don't grab it."
+    new "Не хватать."
 

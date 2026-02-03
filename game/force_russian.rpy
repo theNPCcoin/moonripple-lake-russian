@@ -6,6 +6,12 @@ init python:
     if persistent.sname == "Suzie" or persistent.sname is None:
         persistent.sname = "Сьюзи"
 
+    _ru_merynn_parts = {
+        "breasts": "грудь",
+        "cameltoe": "стринги",
+        "lips and eyes": "губы и глаза",
+    }
+
     def ru_location_name(name):
         ru_map = {"Attic": "Чердак", "Foyer": "Фойе"}
         if _preferences.language == "russian":
@@ -1138,6 +1144,8 @@ screen nvl_phonetext(dialogue):
 
 label after_load:
     $ renpy.change_language("russian")
+    if merynn_favored_part is not None and _preferences.language == "russian":
+        $ merynn_favored_part = _ru_merynn_parts.get(merynn_favored_part, merynn_favored_part)
     return
 
 label splashscreen:

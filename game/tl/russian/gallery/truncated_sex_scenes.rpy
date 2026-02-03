@@ -8746,7 +8746,7 @@ translate russian rp_mer_seduce_4ab72aa6:
 translate russian rp_mer_seduce_d65f079f:
 
     # mer "Still like my [merynn_favored_part] the best? Or do you like my ass better?"
-    mer "Всё ещё нравится моя [merynn_favored_part] больше всего? Или задница нравится больше?"
+    mer "Всё ещё нравится моя [_ru_merynn_parts.get(merynn_favored_part, merynn_favored_part)] больше всего? Или задница нравится больше?"
 
 # game/gallery/truncated_sex_scenes.rpy:3244
 translate russian rp_mer_seduce_2e33793e:

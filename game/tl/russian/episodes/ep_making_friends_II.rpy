@@ -7284,7 +7284,7 @@ translate russian bring_alcohol_to_party_4ab72aa6:
 translate russian bring_alcohol_to_party_d65f079f:
 
     # mer "Still like my [merynn_favored_part] the best? Or do you like my ass better?"
-    mer "Всё ещё больше нравятся мои [merynn_favored_part]? Или тебе больше нравится моя задница?"
+    mer "Всё ещё больше нравятся мои [_ru_merynn_parts.get(merynn_favored_part, merynn_favored_part)]? Или тебе больше нравится моя задница?"
 
 # game/episodes/ep_making_friends_II.rpy:3349
 translate russian bring_alcohol_to_party_2e33793e:
@@ -7506,7 +7506,7 @@ translate russian bring_alcohol_to_party_ba95dca7:
 translate russian bring_alcohol_to_party_3944d2ec:
 
     # a "I uhh believe I said your [merynn_favored_part]."
-    a "Я, эээ, кажется, сказал твои [merynn_favored_part]."
+    a "Я, эээ, кажется, сказал твои [_ru_merynn_parts.get(merynn_favored_part, merynn_favored_part)]."
 
 # game/episodes/ep_making_friends_II.rpy:3446
 translate russian bring_alcohol_to_party_2966c7ef:

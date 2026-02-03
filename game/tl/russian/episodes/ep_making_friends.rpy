@@ -10235,3 +10235,11 @@ translate russian avoid_esme_help_29925ee5:
 
     # speko "Bye [persistent.aname]!"
     speko "Пока, [persistent.aname]!"
+
+translate russian strings:
+
+    old "Let Mama Esme ease 'the swelling'."
+    new "Позволить маме Эсме снять 'припухлость'."
+
+    old "Excuse yourself."
+    new "Извиниться и уйти."

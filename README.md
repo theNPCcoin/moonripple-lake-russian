@@ -26,12 +26,17 @@
 2. Распакуйте архив
 3. Найдите игру в Steam: ПКМ → Управление → Просмотреть локальные файлы
 4. ПКМ на `Moonripple_Lake.app` → Показать содержимое пакета
-5. Скопируйте папку `game` в `Contents/Resources/autorun/`:
-   ```
-   Moonripple_Lake.app/Contents/Resources/autorun/
-   ```
-6. При копировании выберите **"Объединить"** / **"Merge"**
-7. Запустите игру
+5. Скопируйте папку `game` в `Contents/Resources/autorun/`
+
+> [!IMPORTANT]
+> При перетаскивании в Finder **зажмите клавишу Option (⌥)** — тогда появится кнопка **«Merge»** вместо «Replace». Без Option Finder предложит только «Заменить», что сломает игру!
+>
+> Либо скопируйте через Терминал (надёжнее):
+> ```
+> cp -R ~/Downloads/moonripple-lake-russian-main/game/ "<путь к игре>/Moonripple_Lake.app/Contents/Resources/autorun/game/"
+> ```
+
+6. Запустите игру
 
 ### Linux
 1. Скачайте и распакуйте

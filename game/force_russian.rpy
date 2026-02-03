@@ -93,14 +93,17 @@ init python:
     }
 
 init 999 python:
-    _orig_showportalhovertext = Portal.showportalhovertext
-    def _ru_showportalhovertext(self):
-        if self.onhoveredtxt is not None and _preferences.language == "russian":
-            txt = _ru_portal_hover.get(self.onhoveredtxt, self.onhoveredtxt)
-            renpy.show_screen("anon_say", text=txt, xa=0.33, ya=0.85)
-        else:
-            _orig_showportalhovertext(self)
-    Portal.showportalhovertext = _ru_showportalhovertext
+    try:
+        _orig_showportalhovertext = Portal.showportalhovertext
+        def _ru_showportalhovertext(self):
+            if self.onhoveredtxt is not None and _preferences.language == "russian":
+                txt = _ru_portal_hover.get(self.onhoveredtxt, self.onhoveredtxt)
+                renpy.show_screen("anon_say", text=txt, xa=0.33, ya=0.85)
+            else:
+                _orig_showportalhovertext(self)
+        Portal.showportalhovertext = _ru_showportalhovertext
+    except NameError:
+        pass
 
 translate russian style main_menu_button_text:
     font "fonts/FiraSansCondensed-Heavy.TTF"

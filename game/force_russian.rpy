@@ -13,6 +13,7 @@ init python:
     }
 
     _ru_sconvo_picks = {
+        # Silas conversation (ep_revelations)
         "Were you outside the house?": "Ты был снаружи дома?",
         "You said you were Silas...": "Ты сказал, что ты Сайлас...",
         "What is this place?": "Что это за место?",
@@ -27,6 +28,27 @@ init python:
         "Take the Pearl": "Взять Жемчужину",
         "Could the Pearl be destroyed?": "Можно ли уничтожить Жемчужину?",
         "Why do you want to destroy the Pearl?": "Почему ты хочешь уничтожить Жемчужину?",
+        # Drago photo (ep_revelations)
+        "Share": "Поделиться",
+        "Don't share": "Не делиться",
+        # Spank Cee (ep_5)
+        "Spank her.": "Шлёпнуть её.",
+        "Stop spanking her.": "Перестать шлёпать.",
+        # Sex choices (ep_revelations / ep_4)
+        "Anal": "Анал",
+        "Vaginal": "Вагинально",
+        "Cum": "Кончить",
+        "Stop": "Стоп",
+        "Stop.": "Стоп.",
+        # Oral choices (ep_6)
+        "Lick her ass.": "Лизать попку.",
+        "Lick her pussy.": "Лизать киску.",
+        "Lick her balls.": "Лизать яички.",
+        "[persistent.sname]'s turn.": "Очередь [persistent.sname].",
+        "Some more Cee.": "Ещё немного Си.",
+        "Move on.": "Двигаться дальше.",
+        "More love for [persistent.sname].": "Больше ласки для [persistent.sname].",
+        "Give Cee some love.": "Приласкать Си.",
     }
 
     def _ru_translate_sconvo(d):

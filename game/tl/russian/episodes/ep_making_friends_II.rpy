@@ -18710,3 +18710,9 @@ translate russian strings:
     old "Shake your head."
     new "Покачать головой."
 
+# game/episodes/ep_making_friends_II.rpy:7198
+translate russian request_alcohol_from_bartender_suzie_13c0e3bd:
+
+    # brt "I'd 100\% help you out if I could."
+    brt "Я бы на все 100\% тебе помог, если бы мог."
+

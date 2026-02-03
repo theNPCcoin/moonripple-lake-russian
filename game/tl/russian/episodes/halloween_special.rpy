@@ -3312,3 +3312,9 @@ translate russian halloween_special_c25c57e8:
     # a "ORCS AND GOBLINS."
     a "ОРКИ И ГОБЛИНЫ."
 
+# game/episodes/halloween_special.rpy:718
+translate russian halloween_special_6d8068df:
+
+    # gob0 "I appraise your chances at 0.5\%."
+    gob0 "Я оцениваю твои шансы в 0.5\%."
+

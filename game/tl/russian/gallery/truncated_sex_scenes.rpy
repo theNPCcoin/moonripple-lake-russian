@@ -29734,7 +29734,7 @@ translate russian rp_cee_assinspect_end_34bc3610:
 translate russian rp_cee_spank_loop_ep5_6abe59fa:
 
     # "[cee_spank_comments]"
-    "[cee_spank_comments]"
+    "[_ru_random_comments.get(cee_spank_comments, cee_spank_comments)]"
 
 # game/gallery/truncated_sex_scenes.rpy:13828
 translate russian rp_cee_spank_loop_ep5_3908dc0a:
@@ -39779,6 +39779,30 @@ translate russian rp_e6_last_scenes_3_566c84da:
 
     # "Is this my life now?"
     "Это теперь моя жизнь?"
+
+# game/gallery/truncated_sex_scenes.rpy:487 (double space hash fix)
+translate russian rp_suzie_wet_top_24333688:
+
+    # s "I'm g-glad... you guys...   like it."
+    s "Я р-рада... что вам, ребята... нравится."
+
+# game/gallery/truncated_sex_scenes.rpy:527 (\% hash fix)
+translate russian rp_suzie_wet_top_f7e3aebb:
+
+    # m0 "Oh yes! Repeat customers get a 10\% discount!"
+    m0 "О да! Постоянные клиенты получают скидку 10\%!"
+
+# game/gallery/truncated_sex_scenes.rpy:529 (\% hash fix)
+translate russian rp_suzie_wet_top_f53dac55:
+
+    # m0 "{size=20}Limited to 30\% off."
+    m0 "{size=20}Максимум 30\% скидки."
+
+# game/gallery/truncated_sex_scenes.rpy:5750 (\% hash fix)
+translate russian halloween_suzie_dungeon_fuck_6d8068df:
+
+    # gob0 "I appraise your chances at 0.5\%."
+    gob0 "Я оцениваю твои шансы в 0.5\%."
 
 translate russian strings:
 

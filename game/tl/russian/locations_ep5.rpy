@@ -4534,7 +4534,7 @@ translate russian investigate_bj_line_4e54fcbb:
 translate russian grocery_after_bj_line_4c5f9db3:
 
     # "[nogoingbackinafterbjline]"
-    "[nogoingbackinafterbjline]"
+    "[_ru_random_comments.get(nogoingbackinafterbjline, nogoingbackinafterbjline)]"
 
 # game/locations_ep5.rpy:2712
 translate russian helpwanted_sign_anon_b7584302:
@@ -6574,7 +6574,7 @@ translate russian anon_drink_37a7b90e:
 translate russian anon_drink_e346cd70:
 
     # "[after_sip_comments]"
-    "[after_sip_comments]"
+    "[_ru_random_comments.get(after_sip_comments, after_sip_comments)]"
 
 # game/locations_ep5.rpy:3715
 translate russian trev_bartending_a34f4573:
@@ -11633,4 +11633,16 @@ translate russian strings:
     # game/locations_ep5.rpy:3757
     old "Nothing."
     new "Ничего."
+
+# game/locations_ep5.rpy:906
+translate russian ferry_tour_f5e60508:
+
+    # fm "If they opened it back up, I could probably raise prices by 50\%!"
+    fm "Если бы они открыли её снова, я мог бы поднять цены на 50\%!"
+
+# game/locations_ep5.rpy:5577
+translate russian ep5_cee_hj_nosu_naughty_195ba7d7:
+
+    # s_nvl "Oh wow  {image=images/phone/emojis/embarrassed.png}"
+    s_nvl "О вау  {image=images/phone/emojis/embarrassed.png}"
 

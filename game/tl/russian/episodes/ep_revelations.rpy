@@ -24408,3 +24408,9 @@ translate russian strings:
     old "Don't ask her to suck it."
     new "Не просить."
 
+# game/episodes/ep_revelations.rpy:901
+translate russian hospital_wakeup_a294c4a8:
+
+    # nurse "KHM.  Cause of the erection. Most likely..."
+    nurse "КХМ.  Причина эрекции. Скорее всего..."
+

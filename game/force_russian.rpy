@@ -12,6 +12,20 @@ init python:
         "lips and eyes": "губы и глаза",
     }
 
+    _ru_random_comments = {
+        # cee_spank_comments (ep_5.rpy)
+        "Ohh... fuck. That's so good...": "Ох... блять. Как же хорошо...",
+        "You're so... strong.": "Ты такой... сильный.",
+        # after_sip_comments (locations_ep5.rpy)
+        "Good beer.": "Хорошее пиво.",
+        "Nice and cold.": "Приятно холодное.",
+        "Love me some BCG beer.": "Обожаю пиво BCG.",
+        # nogoingbackinafterbjline (locations_ep5.rpy)
+        "Hell no.": "Ни за что.",
+        "Nope.": "Неа.",
+        "Debating if I'll ever go back in there again.": "Думаю, вернусь ли я когда-нибудь туда снова.",
+    }
+
     _ru_sconvo_picks = {
         # Silas conversation (ep_revelations)
         "Were you outside the house?": "Ты был снаружи дома?",

@@ -11806,7 +11806,7 @@ translate russian cee_ass_fondling_6584cc32:
 translate russian cee_spank_loop_ep5_6abe59fa:
 
     # "[cee_spank_comments]"
-    "[cee_spank_comments]"
+    "[_ru_random_comments.get(cee_spank_comments, cee_spank_comments)]"
 
 # game/episodes/ep_5.rpy:4136
 translate russian cee_spank_loop_ep5_3908dc0a:
@@ -14071,4 +14071,22 @@ translate russian strings:
     # game/episodes/ep_5.rpy:3524
     old "Don't grab it."
     new "Не хватать."
+
+# game/episodes/ep_5.rpy:687
+translate russian ep5_start_0d9619c1:
+
+    # "Shittacoin is down by 96\% from all time high."
+    "Шиттакоин упал на 96\% от максимума."
+
+# game/episodes/ep_5.rpy:688
+translate russian ep5_start_78562d74:
+
+    # "It was minus 98\% a couple days ago..."
+    "Пару дней назад было минус 98\%..."
+
+# game/episodes/ep_5.rpy:2693
+translate russian start_dates_ep5_9375cd02:
+
+    # a "Fuck you,  man! I'm gonna try anyway!"
+    a "Да пошёл ты, чувак! Я всё равно попробую!"
 

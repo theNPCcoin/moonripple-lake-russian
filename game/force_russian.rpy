@@ -12,6 +12,28 @@ init python:
         "lips and eyes": "губы и глаза",
     }
 
+    _ru_sconvo_picks = {
+        "Were you outside the house?": "Ты был снаружи дома?",
+        "You said you were Silas...": "Ты сказал, что ты Сайлас...",
+        "What is this place?": "Что это за место?",
+        "Why are you chained up?": "Почему ты закован в цепи?",
+        "What's the pearl?": "Что такое жемчужина?",
+        "You said you needed me here?": "Ты сказал, что я тебе нужен здесь?",
+        "You said THEY chained you... Who?": "Ты сказал, ОНИ заковали тебя... Кто?",
+        "Why did you make that deal?": "Почему ты заключил ту сделку?",
+        "Where are they now? The Cult?": "Где они сейчас? Культ?",
+        "You said someone tried to find this place recently?": "Ты сказал, кто-то недавно пытался найти это место?",
+        "After I take the Pearl, what do I do?": "После того как я заберу Жемчужину, что мне делать?",
+        "Take the Pearl": "Взять Жемчужину",
+        "Could the Pearl be destroyed?": "Можно ли уничтожить Жемчужину?",
+        "Why do you want to destroy the Pearl?": "Почему ты хочешь уничтожить Жемчужину?",
+    }
+
+    def _ru_translate_sconvo(d):
+        if _preferences.language != "russian":
+            return d
+        return {k: _ru_sconvo_picks.get(v, v) for k, v in d.items()}
+
     def ru_location_name(name):
         ru_map = {"Attic": "Чердак", "Foyer": "Фойе"}
         if _preferences.language == "russian":
@@ -110,6 +132,32 @@ init 999 python:
         Portal.showportalhovertext = _ru_showportalhovertext
     except NameError:
         pass
+
+screen convo_menu(convo_dict = sconvo_label_picks):
+    modal True
+    style_prefix "choice_alt"
+    vbox:
+        for l,lt in convo_dict.items():
+            $ _ru_lt = _ru_sconvo_picks.get(lt, lt) if _preferences.language == "russian" else lt
+            textbutton _ru_lt action Call(l) id "choice_" + str(lt):
+                hovered SetVariable("choice_hovered", "choice_" + str(lt))
+                unhovered SetVariable("choice_hovered", None)
+                if choice_hovered == "choice_" + str(lt):
+                    at transform:
+                        ease 0.3 xoffset -20
+
+screen convo_menu_alt(convo_dict = sconvo_label_picks):
+    modal True
+    style_prefix "choice_alt_alt"
+    vbox:
+        for l,lt in convo_dict.items():
+            $ _ru_lt = _ru_sconvo_picks.get(lt, lt) if _preferences.language == "russian" else lt
+            textbutton _ru_lt action Call(l) id "choice_" + str(lt):
+                hovered SetVariable("choice_hovered", "choice_" + str(lt))
+                unhovered SetVariable("choice_hovered", None)
+                if choice_hovered == "choice_" + str(lt):
+                    at transform:
+                        ease 0.3 xoffset -20
 
 translate russian style main_menu_button_text:
     font "fonts/FiraSansCondensed-Heavy.TTF"
